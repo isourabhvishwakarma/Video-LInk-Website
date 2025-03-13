@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wendy+One&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "poppins";
+}
+
+.container {
+	min-height: 100vh;
+	background-color: #666666;
+}
+
+.box {
+	min-height: 100vh;
+	background-color: black;
+	max-width: 450px;
+	margin: 0 auto;
+	color: #ef921c;
+}
+
+.header {
+	text-align: center;
+	border-bottom: 1px solid #ef921c;
+	padding-bottom: 1rem;
+}
+
+.nav {
+	background-color: #ef921c;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 20px;
+	align-items: center;
+	font-size: 15px;
+}
+
+.ig-img {
+	width: 30px;
+	height: 30px;
+}
+
+.ig-img img {
+	height: 100%;
+	width: 100%;
+	border-radius: 7px;
+	border: 1px solid pink;
+	object-fit: contain;
+}
+.header h2 {
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+}
+.search-bar {
+	width: 80%;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 1rem;
+	justify-content: center;
+}
+
+#search-input {
+	flex: 2;
+	padding: 7px 1rem;
+	font-size: 1rem;
+	border: 1px solid white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#search-input:focus-visible {
+	border: 1px solid #ef921c;
+	outline: 1px solid #ef921c;
+}
+
+#search-btn {
+	min-width: 40px;
+	padding: 7px;
+	text-align: center;
+	background-color: #ef921c;
+	font-size: 1rem;
+	border: 1px solid #ef921c;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.content {
+	padding: 1rem;
+	color: white;
+	/* text-align: center; */
+}
+
+.cart-container {
+	margin-top: 1rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	color: black;
+}
+
+.cart {
+	height: 100px;
+	width: 100%;
+	background: #fff;
+	display: flex;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.avatar-container img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+.cart-content {
+	display: flex;
+	flex-direction: column;
+	padding: 0 1rem;
+	font-size: 1rem;
+	gap: 5px;
+	align-items: flex-start;
+}
+
+.content a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.cart-content a {
+	text-decoration: none;
+	background-color: #006bb3;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+#backtop {
+	text-decoration: none;
+	background-color: #ef921c;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-weight: 600;
+	font-size: 1.2rem;
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+}
+
+.add-link-container {
+	display: none;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 1rem;
+}
+.add-link-container input,
+button {
+	padding: 5px 10px;
+}
+.password-input-container {
+	display: none;
+    padding: 10px 0;
+}
+
+#password-input, #pass-sub-btn{
+    padding: 5px 10px;
+}
